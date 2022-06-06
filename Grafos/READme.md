@@ -9,7 +9,7 @@
     dfs(nó v)
         marcar v como visitado;
         Para todos os nós w adjacentes a v fazer
-            Se w aind não foi visitado então
+            Se w ainda não foi visitado então
                 dfs(w)
     
     - Temporal
@@ -37,7 +37,7 @@
             - Matriz de adjacências = O(|V|²)
         ```
         - DAA 025 Redes de circuitos eletrónicos
-
+        - DAA 026 Contagem de células
     - Saber verificar se um grafo é bipartido;
         - Verificar se é possível pintar todos os nós com apenas 2 cores
         - 2 cores = Bipartido
@@ -56,9 +56,7 @@
 - Problemas exemplo:
 
     - DAA 025 Redes de circuitos eletrónicos;
-        ```
-
-        ```
+        - Algoritmo de descobrir componentes conexos
     - DAA 026 Contagem de células;
         - Parecido com o `blob.cpp` ou `BLOB.java`
         - Não esquecer dar reset nos visitados
