@@ -1,4 +1,0 @@
-3 2
-ncssid mvaycfg
-mvaycfg ncssid 90.6
-ncssid kl 6.3
